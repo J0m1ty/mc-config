@@ -2,7 +2,7 @@
 cooldown: 5
 
 # Max homes is the maximum number of homes the player can have
-max-homes: 3
+max-homes: 1
 
 # Cancel on move is a setting that determines whether teleportation should be canceled if the player moves while on cooldown
 cancel-on-move: false
