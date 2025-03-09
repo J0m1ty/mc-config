@@ -1,4 +1,15 @@
+# World directories
 world/
 world_nether/
 world_the_end/
+
+# Log files
+logs/
+bluemap/logs/
+*.log
+*.log.*
+*.log.gz
+*.log.lck
+
+# Server jar
 server.jar
