@@ -1,5 +1,15 @@
 {
   "render-threads-enabled": true,
-  "maps": {},
+  "maps": {
+    "world": {
+      "update-enabled": true
+    },
+    "world_the_end": {
+      "update-enabled": true
+    },
+    "world_nether": {
+      "update-enabled": true
+    }
+  },
   "hidden-players": []
 }

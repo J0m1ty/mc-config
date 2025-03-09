@@ -170,3 +170,29 @@
 [03:54:22] [Server thread/INFO]: Jomity issued server command: /sethome Jomity
 [03:54:24] [Server thread/INFO]: Jomity issued server command: /home
 [03:54:28] [Server thread/INFO]: Jomity issued server command: /delhome Jomity
+[04:03:47] [Server thread/INFO]: /97.87.116.251:54738 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: Failed to decode packet 'serverbound/minecraft:hello'
+[04:05:53] [Server thread/INFO]: Made Jomity a server operator
+[04:06:01] [Server thread/INFO]: Jomity issued server command: /bluemap start
+[04:06:05] [Server thread/INFO]: Jomity issued server command: /bluemap reload
+[04:06:05] [BlueMap-FJP-0/WARN]: [BlueMap] BlueMap is missing important resources!
+[04:06:05] [BlueMap-FJP-0/WARN]: [BlueMap] You must accept the required file download in order for BlueMap to work!
+[04:06:05] [BlueMap-FJP-0/WARN]: [BlueMap] Please check: /home/mc/server/plugins/BlueMap/core.conf
+[04:06:05] [BlueMap-FJP-0/INFO]: [BlueMap] If you have changed the config you can simply reload the plugin using: /bluemap reload
+[04:06:33] [BlueMap-FJP-0/INFO]: Reloading BlueMap...
+[04:06:33] [BlueMap-FJP-0/INFO]: [BlueMap] Downloading 'https://piston-data.mojang.com/v1/objects/a7e5a6024bfd3cd614625aa05629adf760020304/client.jar' to 'bluemap/minecraft-client-1.21.4.jar'...
+[04:06:34] [BlueMap-FJP-0/INFO]: [BlueMap] Loading resources...
+[04:06:34] [BlueMap-FJP-0/INFO]: [BlueMap] Loading textures...
+[04:06:35] [BlueMap-FJP-0/INFO]: [BlueMap] Baking resources...
+[04:06:35] [BlueMap-FJP-0/INFO]: [BlueMap] Resources loaded.
+[04:06:35] [BlueMap-FJP-0/INFO]: [BlueMap] Initializing Storage: 'file' (Type: 'bluemap:file')
+[04:06:35] [BlueMap-FJP-0/INFO]: [BlueMap] Loading map 'world'...
+[04:06:35] [BlueMap-FJP-0/INFO]: [BlueMap] Loading map 'world_the_end'...
+[04:06:35] [BlueMap-FJP-0/INFO]: [BlueMap] Loading map 'world_nether'...
+[04:06:35] [BlueMap-FJP-0/INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
+[04:06:35] [Thread-25/INFO]: [BlueMap] WebServer started.
+[04:06:36] [BlueMap-FJP-0/INFO]: BlueMap reloaded!
+[04:12:08] [Server thread/INFO]: intersect (/156.253.227.129:60714) lost connection: Disconnected
+[04:15:22] [Server thread/INFO]: Jomity has made the advancement [Sneak 100]
+[04:15:47] [Server thread/INFO]: Jomity issued server command: /tp ~ 300 ~
+[04:15:47] [Server thread/INFO]: [Jomity: Teleported Jomity to -160.009377, 300.000000, -397.662808]
+[04:18:17] [Server thread/INFO]: intersect (/156.253.227.129:39742) lost connection: Disconnected
