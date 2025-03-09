@@ -1,0 +1,4 @@
+[2025-03-09 03:51:24][WARNING] BlueMap is missing important resources!
+[2025-03-09 03:51:24][WARNING] You must accept the required file download in order for BlueMap to work!
+[2025-03-09 03:51:24][WARNING] Please check: /home/mc/server/plugins/BlueMap/core.conf
+[2025-03-09 03:51:24][INFO] If you have changed the config you can simply reload the plugin using: /bluemap reload

@@ -1,0 +1,9 @@
+# Cooldown is the number of seconds the player must wait before they can teleport to a home
+cooldown: 0
+
+# Max homes is the maximum number of homes the player can have
+max-homes: 15
+
+# Cancel on move is a setting that determines whether teleportation should be canceled if the player moves while on cooldown
+cancel-on-move: false
+

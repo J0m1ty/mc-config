@@ -1,0 +1,58 @@
+check-for-updates: true
+messages:
+  prefix: §8[§6JustTPA§8] §7
+  reloaded: Configuration has been reloaded.
+  usages:
+    tpa: 'Usage: /tpa <player>'
+    tpahere: 'Usage: /tpahere <player>'
+    tpaccept: 'Usage: /tpaccept to accept the last teleport request, or /tpaccept
+      <player> to accept a specific teleport request'
+  errors:
+    player-required: You must be a player to use this command.
+    player-not-found: Player not found.
+    player-self-request: You can't send a teleport request to yourself.
+    request-pending: You already have a pending request.
+    request-not-found: You have no pending request.
+    return-not-found: You have no place to return to, or it is timed out.
+    request-not-found-by: You have no pending request from %playername%.
+    cooldown: You have to wait %seconds% seconds before you can send another teleport
+      request.
+  request:
+    sent: Teleport request sent to %playername% they have %seconds% seconds to accept
+      it.
+    return: You will be returned to your last location.
+    received: You have received a teleport request from %playername% which expires
+      in %seconds% seconds.
+    accept: Type /tpaccept to accept the request.
+    deny: Type /tpadeny to deny the request.
+    denied-by: Teleportation Denied by %playername%.
+    denied: You have denied the Teleportation request from %playername%.
+    warning-tpa-here: 'Warning: if you accept this request, you will be teleported
+      to %playername%.'
+    canceled: Teleportation Canceled.
+    canceled-by: Teleportation Canceled by %playername%.
+    accepted: You accepted the teleport request from %playername%.
+    accepted-by: Your teleport request has been accepted by %playername%.
+    timeout-to: Your teleport request to %playername% has timed out.
+    timeout-from: Your teleport request from %playername% has timed out.
+    teleported-to: You have been teleported to %playername%.
+    teleported-from: '%playername% has been teleported to you.'
+    moved-return: Teleportation has been cancelled because you have moved.
+    moved-to: Teleportation to %playername% has been cancelled because you have moved.
+    moved-from: Teleportation cancelled because %playername% has moved.
+    wait-to: Please stand still for %time% seconds to get teleported to %playername%.
+    wait-to-here: Please stand still for %time% seconds to get %playername% teleported
+      to you.
+    wait-from: '%playername% will be teleported in %time% seconds.'
+    wait-from-here: you will be teleported to %playername% in %time% seconds.
+    wait-return: You will be returned in %time% seconds. Please stand still.
+tpa:
+  timeout: 60
+  return-timeout: 60
+  wait: 0
+  verbose: false
+  cooldowns:
+    tpa: 60
+    tpaHere: 60
+bStats:
+  enabled: true
