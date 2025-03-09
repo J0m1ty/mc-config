@@ -13,3 +13,10 @@ bluemap/logs/
 
 # Server jar
 server.jar
+
+# Other changing files
+# plugins/CoreProtect/database.db
+# plugins/AxGraves/data.json
+# usercache.json
+# .console_history
+spark-*.tmp
