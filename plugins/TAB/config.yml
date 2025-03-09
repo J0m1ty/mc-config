@@ -2,19 +2,14 @@
 header-footer:
   enabled: true
   header:
-    - "<#FFFFFF>&m                                                </#FFFF00>"
-    - "&3&lServer name"
-    - "&r&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
+    - "<#aaaaaa>&m                                           </#aaaaaa>"
+    - "&6&l>> mc.jomity.net <<"
+    - ""
     - "&r&7Online players: &f%online%"
-    - "&6Online staff: &e%staffonline%"
-    - ""
   footer:
-    - "%animation:time%"
-    - "&2Ping: %ping%"
-    - "&7&l Used memory: %memory-used% MB / %memory-max% MB"
     - ""
-    - "&r&7Visit our webpage %animation:web%"
-    - "<#FFFFFF>&m                                                </#FFFF00>"
+    - "&r&7Visit the map at &fmap.jomity.net"
+    - "<#aaaaaa>&m                                           </#aaaaaa>"
   disable-condition: '%world%=disabledworld'
   per-world:
     world1:
