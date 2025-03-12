@@ -20,3 +20,4 @@ server.jar
 # usercache.json
 # .console_history
 spark-*.tmp
+plugins/CoreProtect/database.db
