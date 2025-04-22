@@ -315,5 +315,6 @@ tick-rates:
       secondarypoisensor: 40
   wet-farmland: 1
 unsupported-settings:
+  allow-permanent-block-break-exploits: true
   disable-world-ticking-when-empty: false
   fix-invulnerable-end-crystal-exploit: true

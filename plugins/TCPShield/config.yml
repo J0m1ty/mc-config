@@ -1,5 +1,5 @@
 # Please keep this as true in while using TCPShield!
-only-allow-proxy-connections: true
+only-allow-proxy-connections: false
 
 # available modes: system (uses the system time), htpdate (uses a synchronized date) & off (deactivates timestamp validation)
 timestamp-validation: 'htpdate'
@@ -8,7 +8,7 @@ timestamp-validation: 'htpdate'
 debug-mode: false
 
 # Toggle to enable support for Geyser/Floodgate v2
-enable-geyser-support: false
+enable-geyser-support: true
 
 # Spigot/Paper option only, does not affect bungeecord
 prefer-protocollib: false

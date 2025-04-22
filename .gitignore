@@ -21,3 +21,17 @@ server.jar
 # .console_history
 spark-*.tmp
 plugins/CoreProtect/database.db
+
+crash-reports/
+cache/
+bluemap/
+versions/
+.console_history/
+banned-ips.json
+banned-players.json
+libraries/
+usercache.json
+whitelist.json
+ops.json
+
+*.sqlite
