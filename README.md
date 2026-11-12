@@ -1,8 +1,7 @@
 # mc-config
 
 Configuration for the "Chunk Works" Paper server (Minecraft 26.1.1).
-Only config is tracked. Worlds and plugin data live in backups; plugin jars
-are listed in [plugins.md](plugins.md).
+Only config is tracked here. Worlds and plugin data live in backups, and necessary plugin jars are listed in [plugins.md](plugins.md).
 
 ## Restore
 
@@ -25,12 +24,3 @@ Java: Paper 26.x needs Java 25 (e.g. Amazon Corretto 25).
 | 25565 | TCP | Minecraft |
 | 24454 | UDP | Simple Voice Chat |
 
-The DNS record for the server must be "DNS only" (grey cloud) in Cloudflare;
-Cloudflare doesn't proxy Minecraft traffic.
-
-## Notes
-
-- `online-mode=true`, RCON disabled.
-- Floodgate/Geyser (Bedrock support) were removed. Their old `key.pem` is in
-  this repo's history and must not be reused; a fresh one is generated if
-  Floodgate is ever reinstalled.
