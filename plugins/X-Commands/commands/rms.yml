@@ -1,0 +1,25 @@
+name: rotary
+aliases:
+  - rms
+
+item:
+  material: PAPER
+  display-name: "&bRotary"
+
+description: "&7Sets your department to Rotary & Mission Systems."
+
+register: true
+permission: xcommands.dept.rotary
+world: ""
+cooldown: 0
+interval: 0
+
+actions:
+  - "[CONSOLE] lp user %player% parent remove aeronautics"
+  - "[CONSOLE] lp user %player% parent remove enterprise"
+  - "[CONSOLE] lp user %player% parent remove missiles"
+  - "[CONSOLE] lp user %player% parent remove rotary"
+  - "[CONSOLE] lp user %player% parent remove space"
+  - "[CONSOLE] lp user %player% parent add rotary"
+  - "[MESSAGE] &aDepartment set to &bRotary & Mission Systems&a."
+  - "[SOUND] ENTITY_PLAYER_LEVELUP;1.0;1.2"

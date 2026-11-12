@@ -1,0 +1,24 @@
+name: space
+aliases:
+
+item:
+  material: PAPER
+  display-name: "&bSpace"
+
+description: "&7Sets your department to Space."
+
+register: true
+permission: xcommands.dept.space
+world: ""
+cooldown: 0
+interval: 0
+
+actions:
+  - "[CONSOLE] lp user %player% parent remove aeronautics"
+  - "[CONSOLE] lp user %player% parent remove enterprise"
+  - "[CONSOLE] lp user %player% parent remove missiles"
+  - "[CONSOLE] lp user %player% parent remove rotary"
+  - "[CONSOLE] lp user %player% parent remove space"
+  - "[CONSOLE] lp user %player% parent add space"
+  - "[MESSAGE] &aDepartment set to &bSpace&a."
+  - "[SOUND] ENTITY_PLAYER_LEVELUP;1.0;1.2"

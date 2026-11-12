@@ -1,0 +1,25 @@
+name: aeronautics
+aliases:
+  - aero
+
+item:
+  material: PAPER
+  display-name: "&bAeronautics"
+
+description: "&7Sets your department to Aeronautics."
+
+register: true
+permission: xcommands.dept.aeronautics
+world: ""
+cooldown: 0
+interval: 0
+
+actions:
+  - "[CONSOLE] lp user %player% parent remove aeronautics"
+  - "[CONSOLE] lp user %player% parent remove enterprise"
+  - "[CONSOLE] lp user %player% parent remove missiles"
+  - "[CONSOLE] lp user %player% parent remove rotary"
+  - "[CONSOLE] lp user %player% parent remove space"
+  - "[CONSOLE] lp user %player% parent add aeronautics"
+  - "[MESSAGE] &aDepartment set to &bAeronautics&a."
+  - "[SOUND] ENTITY_PLAYER_LEVELUP;1.0;1.2"

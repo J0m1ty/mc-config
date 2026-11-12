@@ -1,19 +1,36 @@
 # mc-config
 
-This repository holds the configuration files for a Minecraft server.
+Configuration for the "Chunk Works" Paper server (Minecraft 26.1.1).
+Only config is tracked. Worlds and plugin data live in backups; plugin jars
+are listed in [plugins.md](plugins.md).
 
-## Overview
+## Restore
 
-This project is intended to simplify the setup and management of a Minecraft server running version 1.21.4 vanilla.
-
-## Installation
-
-1. Download the PaperMC jar file from the following link: [paper-1.21.4-203.jar](https://api.papermc.io/v2/projects/paper/versions/1.21.4/builds/203/downloads/paper-1.21.4-203.jar)
-2. Clone the repository:
+```bash
+git clone git@github.com:J0m1ty/mc-config.git server && cd server
+# 1. Paper jar for 26.1.1 from https://papermc.io/downloads -> server.jar
+# 2. Plugin jars from plugins.md -> plugins/
+# 3. World + plugin data from the latest backup:
+tar -xzf /path/to/mc-backup-YYYY-MM-DD.tar.gz --skip-old-files
+# 4. Run
+./start.sh                       # or: pm2 start ecosystem.config.cjs
 ```
-git clone https://github.com/J0m1ty/mc-config.git
-cd mc-config
-```
-3. Rename the downloaded file to `server.jar`.
-4. Start the server with `./start.sh`.
-5. (Optional) Add the script to crontab for reboots.
+
+Java: Paper 26.x needs Java 25 (e.g. Amazon Corretto 25).
+
+## Ports
+
+| Port | Protocol | Use |
+|---|---|---|
+| 25565 | TCP | Minecraft |
+| 24454 | UDP | Simple Voice Chat |
+
+The DNS record for the server must be "DNS only" (grey cloud) in Cloudflare;
+Cloudflare doesn't proxy Minecraft traffic.
+
+## Notes
+
+- `online-mode=true`, RCON disabled.
+- Floodgate/Geyser (Bedrock support) were removed. Their old `key.pem` is in
+  this repo's history and must not be reused; a fresh one is generated if
+  Floodgate is ever reinstalled.

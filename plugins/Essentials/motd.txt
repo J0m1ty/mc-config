@@ -1,0 +1,3 @@
+&6Welcome, {PLAYER}&6!
+&6Use &c/nick&6 to add your fist name
+&6Factions include &c/mfc&6, &c/rms&6, &c/aero&6, &c/space&6, and &c/eops&6

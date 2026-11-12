@@ -1,0 +1,25 @@
+name: missiles
+aliases:
+  - mfc
+
+item:
+  material: PAPER
+  display-name: "&bMissiles & Fire Control"
+
+description: "&7Sets your department to Missiles & Fire Control."
+
+register: true
+permission: xcommands.dept.missiles
+world: ""
+cooldown: 0
+interval: 0
+
+actions:
+  - "[CONSOLE] lp user %player% parent remove aeronautics"
+  - "[CONSOLE] lp user %player% parent remove enterprise"
+  - "[CONSOLE] lp user %player% parent remove missiles"
+  - "[CONSOLE] lp user %player% parent remove rotary"
+  - "[CONSOLE] lp user %player% parent remove space"
+  - "[CONSOLE] lp user %player% parent add missiles"
+  - "[MESSAGE] &aDepartment set to &bMissiles & Fire Control&a."
+  - "[SOUND] ENTITY_PLAYER_LEVELUP;1.0;1.2"

@@ -1,0 +1,25 @@
+name: enterprise
+aliases:
+  - eops
+
+item:
+  material: PAPER
+  display-name: "&bEnterprise Operations"
+
+description: "&7Sets your department to Enterprise Operations."
+
+register: true
+permission: xcommands.dept.enterprise
+world: ""
+cooldown: 0
+interval: 0
+
+actions:
+  - "[CONSOLE] lp user %player% parent remove aeronautics"
+  - "[CONSOLE] lp user %player% parent remove enterprise"
+  - "[CONSOLE] lp user %player% parent remove missiles"
+  - "[CONSOLE] lp user %player% parent remove rotary"
+  - "[CONSOLE] lp user %player% parent remove space"
+  - "[CONSOLE] lp user %player% parent add enterprise"
+  - "[MESSAGE] &aDepartment set to &bEnterprise Operations&a."
+  - "[SOUND] ENTITY_PLAYER_LEVELUP;1.0;1.2"
